@@ -2,9 +2,11 @@
 #include "brightener.h"
 
 int main() {
-    Image image;
-    image.rows = 512;
-    image.columns = 512;
+    int imageRowSize = 512;
+    int imageColSize = 512;
+
+    Image image(imageRowSize, imageColSize);
+
 	std::cout << "Brightening a 512 x 512 image\n";
     ImageBrightener brightener(image);
     int attenuatedCount = brightener.BrightenWholeImage();
