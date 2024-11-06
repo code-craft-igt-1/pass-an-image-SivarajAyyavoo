@@ -152,10 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="brightener.cpp" />
+    <ClCompile Include="image.cpp" />
     <ClCompile Include="pass-an-image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="brightener.h" />
+    <ClInclude Include="image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
